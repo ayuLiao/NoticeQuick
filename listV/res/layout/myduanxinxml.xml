@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  
+        
+        <Button 
+            android:id="@+id/id_bt_tianjiaduanxin"
+            android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+            android:text="添加短信"
+            android:layout_below="@+id/image_duanxin"
+            android:background="@drawable/button_type"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            />
+        <Button 
+            android:id="@+id/id_bt_shanchu"
+            android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+            android:text="删除短信"
+            android:layout_below="@+id/id_bt_tianjiaduanxin"
+            android:background="@drawable/button_type"
+            android:layout_marginTop="25dp"
+             android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/image_duanxin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/duanxinbackground" 
+            android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

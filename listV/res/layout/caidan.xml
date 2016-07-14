@@ -1,0 +1,41 @@
+
+    <com.example.listv.view.ArcMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:liao="http://schemas.android.com/apk/res/com.example.listv"
+        android:id="@+id/id_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        liao:position="right_bottom"
+        liao:radius="150dp">
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/composer_button">
+            <ImageView 
+              android:id="@+id/id_button" 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:src="@drawable/composer_icn_plus"  />
+        </RelativeLayout>
+            
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cdw"
+            android:tag="dingwei"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cdx"
+            android:tag="duanxin"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/csz"
+            android:tag="shezhi"/>
+        
+     
+    </com.example.listv.view.ArcMenu>
+  
